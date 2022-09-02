@@ -1,0 +1,14 @@
+1. Achsen orientierung geklärt
+2. erster Entwurf Ball-Intercept, aber hat nicht funktioniert weil schlechte Annahme über qualität der Messwerte
+    - rollender Ball wird als bewegend angezeigt
+    - THRESHOLS waren falsch definiert
+3. erneute, gründliche Messung der Testcases
+4. Plot der Daten für Verständnis inkls. Aufräumen der Daten
+5. Analyse bezüglich min/max
+6. Einbau lin reg für Testfälle
+    - Verwendung eines Buffers, um aktuelle Werte für die Regression zu haben
+    - Buffergröße abhängig vom Zeitintervall der Messungen
+7. Fazit: Singuläre Entscheidung aufgrund der Ballrichtung funktioniert gut, aber nicht für verkündete Entscheidung
+    - Möglichkeiten: Singuläre Entscheidung genauer (Geschwindigkeit und Entfernung), Entscheidung priorisieren, letze 3 Entscheidungen
+
+
